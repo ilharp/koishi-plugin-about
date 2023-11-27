@@ -76,8 +76,6 @@ export async function apply(ctx: Context, config: Config) {
     )),
   ) as Record<string, unknown>
 
-  l.warn(result)
-
   ctx
     .command('about')
     .action(({ session }) => session.text('commands.about.template', result))
