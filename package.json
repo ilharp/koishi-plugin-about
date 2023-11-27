@@ -15,7 +15,20 @@
     "koishi",
     "plugin"
   ],
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.15.6",
+    "typescript": "^5.2.2"
+  },
   "peerDependencies": {
-    "koishi": "4.15.6"
+    "koishi": "^4.15.6"
+  },
+  "koishi": {
+    "description": {
+      "zh-CN": "输出机器人介绍和详情"
+    },
+    "locales": [
+      "zh-CN"
+    ]
   }
 }
